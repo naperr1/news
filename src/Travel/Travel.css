@@ -1,0 +1,50 @@
+.travel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    width: 1050px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.a:hover{
+    color: rgb(15, 221, 152) !important;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* a {
+    color: white;
+} */
+
+.text1 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+    margin: 0px 0 0px 0;
+}
+
+.text2 {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400
+}
+
+.text3 {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    color: rgb(15, 221, 152);
+}
